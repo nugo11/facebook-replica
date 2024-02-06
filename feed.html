@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook</title>
+    <link rel="stylesheet" href="./css/feedstyle.css" />
+    <link rel="stylesheet" href="./css/feedstyleres.css" />
+  </head>
+  <div id="bgblur" style="display: none"></div>
+  <body>
+    <header>
+      <div class="headone">
+        <a href="./feed.html"><div class="minilogo"></div></a>
+        <div class="search">
+          <div class="iconininput"></div>
+          <input type="text" placeholder="Search on facebook" />
+        </div>
+      </div>
+      <div class="headtwo">
+        <ul>
+          <li id="activeheaditem">
+            <img src="./img/home.png" alt="home" />
+          </li>
+          <li>
+            <img src="./img/video.png" alt="video" />
+          </li>
+          <li>
+            <img src="./img/market.png" alt="market" />
+          </li>
+          <li>
+            <img src="./img/groups.png" alt="groups" />
+          </li>
+          <li>
+            <img src="./img/games.png" alt="videogames" />
+          </li>
+        </ul>
+      </div>
+      <div class="headthree">
+        <ul>
+          <li>
+            <img src="./img/dots.png" alt="dots" />
+          </li>
+          <li>
+            <img src="./img/messanger.png" alt="messanger" />
+          </li>
+          <li>
+            <img src="./img/bell.png" alt="notification" />
+          </li>
+          <li id="avatarsection">
+            <img src="./img/img.jpg" alt="avatar" id="avatar" />
+            <img src="./img/arrow.png" alt="arrow" id="arrow" />
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="mineone">
+        <ul>
+          <li>
+            <img src="./img/img.jpg" alt="avatar" />
+            <div class="fNameP"></div>
+            <div class="lnameP"></div>
+          </li>
+          <li>
+            <img src="./img/friends-painted.png" alt="friends" />
+            Friends
+          </li>
+          <li>
+            <img src="./img/group-painted.png" alt="Group" />
+            Groups
+          </li>
+          <li>
+            <img src="./img/time-painted.png" alt="Memories" />
+            Memories
+          </li>
+          <li>
+            <img src="./img/mark-painted.png" alt="Saved" />
+            Saved
+          </li>
+          <li>
+            <img src="./img/videos-painted.png" alt="videos" />
+            Videos
+          </li>
+          <li>
+            <img src="./img/market-painted.png" alt="market" />
+            Market
+          </li>
+          <li>
+            <img src="./img/pages-painted.png" alt="pages" />
+            Pages
+          </li>
+          <li>
+            <img src="./img/heart-painted.png" alt="Loyalty" />
+            Loyalty
+          </li>
+          <li>
+            <img src="./img/coube-painted.png" alt="apps" />
+            Apps
+          </li>
+          <li>
+            <img src="./img/cup-painted.png" alt="stars" />
+            Stars
+          </li>
+        </ul>
+        <p>
+          კონფიდენციალურობა · პირობები · რეკლამირება · რეკლამის ვარიანტები ·
+          ქუქი-ჩანაწერები · · Meta © 2024
+        </p>
+      </div>
+
+      <div class="minetwoo">
+        <div class="addpost">
+          <div class="addfirstrow">
+            <div class="useravatar">
+              <img src="./img/img.jpg" alt="" />
+            </div>
+            <input type="text" class="addpostinput" />
+          </div>
+          <hr style="opacity: 0.3" />
+          <div class="addsecondrow">
+            <button><img src="./img/live.png" alt="live" /><p>Live video</p></button>
+            <button>
+              <img src="./img/photovideo.png" alt="photovideo" /><p>Photo/Video</p>
+            </button>
+            <button>
+              <img src="./img/feel.png" alt="feel" /><p>Feeling/activity</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="addpostmodal" style="display: none">
+          <div class="modalheader">
+            <h1>Create post</h1>
+            <button id="closeModal">✖</button>
+          </div>
+          <hr style="opacity: 0.3" />
+          <div class="addfirstrowinmodal">
+            <div class="useravatarinmodal">
+              <img src="./img/img.jpg" alt="" />
+            </div>
+            <div class="modalnames">
+              <div class="mnames">
+                <div class="fNameP"></div>
+                <div class="lnameP"></div>
+              </div>
+              <button>
+                <img src="./img/earth.png" alt="earth" />Public
+                <img src="./img/arrow.png" alt="arrow" />
+              </button>
+            </div>
+          </div>
+
+          <textarea id="modaltextarea" cols="30" rows="10" autofocus></textarea>
+          <div class="addphotoinmodal">
+            <p id="hidethisp">Add to your post</p>
+            <button id="imglinkshow">
+              <img src="./img/photovideo.png" alt="photovideo" />Photo/Video
+            </button>
+            <input type="text" placeholder="Put image link here..." id="imglink" style="display: none;">
+          </div>
+          <button id="submitpost">Post</button>
+        </div>
+        <div class="newsfeed">
+
+      
+        </div>
+      </div>
+      <div class="minethree">
+        <div class="sponsoredposts">
+          <h3>Sponsored</h3>
+          <ul>
+            <li>
+              <img src="./img/sponsored1.jpg" alt="sponsored">
+              <div class="sposnoreinfo">
+              <p>Buy at the best</p>
+              <span>ee.ge</span>
+            </div>
+            </li>
+            <li>
+              <img src="./img/sponsored2.jpg" alt="sponsored">
+              <div class="sposnoreinfo">
+              <p>Order in min</p>
+              <span>mobindex.ge</span>
+            </div>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+@media (width < 1200px) {
+.search input {
+    width: 15px;
+    padding: 14px 27px 14px 25px;
+}
+
+.mineone {
+display: none;
+}
+
+.minetwoo {
+    left: 30px;
+    width: 60%;
+}
+
+.minethree {
+    width: 30%;
+}
+}
+
+@media (width < 870px) {
+    .minethree {
+        display: none;
+    }  
+
+    .minetwoo {
+        left: 30px;
+        width: calc(100% - 60px);
+    }
+
+    header {
+        position: inherit;
+    }
+
+    .headtwo {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 20;
+        background: white;
+        width: 100%;
+    }
+    
+    .addsecondrow {
+        justify-content: space-around;
+    }
+
+    .addsecondrow p {
+        display: none;
+    }
+    .addpost {
+        margin-top: 0;
+    }
+}

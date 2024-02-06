@@ -1,0 +1,46 @@
+@media (width < 1400px) {
+    .right {
+        width: 30%;
+    }
+}
+
+@media (width < 940px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .left {
+        width: 50%;
+        text-align: center;
+    }
+
+    .logo {
+        background-position: center;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .right p {
+        margin-left: 0;
+    }
+}
+
+@media (width < 700px) {
+    .left {
+        width: 80%;
+    }
+    .left p {
+        font-size: 20px;
+    }
+
+    .right {
+        width: 80%;
+    }
+
+    .logo {
+        width: 80%;
+    }
+}
