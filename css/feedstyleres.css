@@ -51,4 +51,8 @@ display: none;
     .addpost {
         margin-top: 0;
     }
+
+    .newsfeed {
+        margin-bottom: 90px;
+    }
 }
