@@ -88,12 +88,12 @@ function auth() {
       inputName.classList.remove("red-placeholder");
     }
 
-    if (inputName.value === localStorage.getItem('email')) {
+    if (inputName.value === localStorage.getItem("email")) {
       inputName.value = "";
       inputName.style.border = "1px solid red";
       inputName.classList.add("red-placeholder");
       inputName.placeholder = "Email is already registered!";
-    } 
+    }
 
     if (fName.value === "") {
       fName.style.border = "1px solid red";
@@ -193,8 +193,8 @@ let imglinkshow = document.getElementById("imglinkshow");
 let hidethisp = document.getElementById("hidethisp");
 let imglink = document.getElementById("imglink");
 let localStorageLength = localStorage.length;
-let like = 'likecountId';
-let createid = 'likebutId';
+let like = "likecountId";
+let createid = "likebutId";
 let NumNum = 0;
 let likenum = `<span class='lcountID'>${NumNum}</span>`;
 
@@ -326,18 +326,18 @@ function feed() {
     window.location.reload();
   }
 
-  
-    submitpost.addEventListener("click", () => {
-      if(imglink.value !== '') {
+  submitpost.addEventListener("click", () => {
+    if (imglink.value !== "") {
       addPost(localStorageLength);
     } else {
-      document.getElementsByClassName('addphotoinmodal')[0].style.border = "2px solid red";
-      hidethisp.textContent = 'Image is required!!!';
-      hidethisp.style.fontWeight = 'bold';
-      hidethisp.style.color = 'red';
+      document.getElementsByClassName("addphotoinmodal")[0].style.border =
+        "2px solid red";
+      hidethisp.textContent = "Image is required!!!";
+      hidethisp.style.fontWeight = "bold";
+      hidethisp.style.color = "red";
       modaltextarea.classList.add("red-placeholder");
     }
-    });
+  });
 
   function pushPostinFeed() {
     let numbersArray = [];
@@ -357,7 +357,6 @@ function feed() {
       newsfeed[0].innerHTML += localStorage.getItem(currentNumber);
     }
   }
-
 
   pushPostinFeed();
 }

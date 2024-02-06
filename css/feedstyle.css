@@ -221,7 +221,7 @@ main {
 }
 
 #fNameP {
-margin-right: 4px;
+  margin-right: 4px;
 }
 
 .mineone ul li:hover {
@@ -519,7 +519,9 @@ margin-right: 4px;
   justify-content: space-between;
 }
 
-.likebut, .comshar, .comshar span {
+.likebut,
+.comshar,
+.comshar span {
   display: flex;
   align-items: center;
 }
@@ -574,7 +576,8 @@ margin-right: 4px;
   gap: 10px;
 }
 
-.comsection input, #imglink {
+.comsection input,
+#imglink {
   padding: 14px 27px 14px 45px;
   border-radius: 30px;
   border: none;
@@ -583,7 +586,8 @@ margin-right: 4px;
   width: 100%;
 }
 
-.comsection input:focus, #imglink:focus {
+.comsection input:focus,
+#imglink:focus {
   outline: none;
 }
 
@@ -607,7 +611,7 @@ margin-right: 4px;
   display: flex;
   align-items: center;
   cursor: pointer;
-  transition: 0.5s;;
+  transition: 0.5s;
 }
 
 .sponsoredposts ul li:hover {
