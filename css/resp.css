@@ -8,6 +8,7 @@
     .container {
         flex-direction: column;
         height: 100%;
+        gap: 50px;
     }
 
     .left {
@@ -26,6 +27,12 @@
     .right p {
         margin-left: 0;
     }
+
+    footer {
+        margin-top: 60px;
+        height: 100%;
+        padding: 20px;
+    }
 }
 
 @media (width < 700px) {
@@ -43,4 +50,6 @@
     .logo {
         width: 80%;
     }
+
+   
 }
